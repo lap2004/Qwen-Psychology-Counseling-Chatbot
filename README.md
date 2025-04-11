@@ -1,10 +1,10 @@
 # 🧠 Qwen-Psychology-Counseling-Chatbot
 
-An AI-powered chatbot for answering psychology-related questions, built with the Flan-T5 language model and fine-tuned using LoRA. The system combines Hugging Face Transformers with Streamlit for an interactive frontend.
+An AI-powered chatbot for answering psychology-related questions, built with the Qwen/Qwen1.5-0.5B language model and fine-tuned using LoRA. The system combines Hugging Face Transformers with Streamlit for an interactive frontend.
 
 ## 📦 Features
 
-- Fine-tuned **Qwen** model with **LoRA**
+- Fine-tuned **Qwen1.5-0.5B** model with **LoRA**
 - Hugging Face integration via `.env` token
 - Local inference and Streamlit-based UI
 - Support for both training in Colab and deployment on local machine
