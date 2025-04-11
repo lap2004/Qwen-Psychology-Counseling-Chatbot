@@ -17,4 +17,10 @@ An AI-powered chatbot for answering psychology-related questions, built with the
 conda create -n myenv python=3.11
 conda activate myenv
 pip install -r requirements.txt
+### 2: Cấu hình Hugging Face
+Tạo file .env
+Truy cập Hugging Face để lấy token API của bạn Options: Login khi chạy file Chatbot.ipynb trên colab và nhập token API
+### 3: Chạy ứng dụng
+Chạy file Qwen.ipynb Mở Terminal/Command Prompt, di chuyển vào thư mục src cd colab và chạy:
+Run ứng dụng:
 streamlit run app.py
