@@ -4,7 +4,7 @@ from peft import PeftModel, PeftConfig
 import torch
 
 # Tên thư mục chứa adapter model
-ADAPTER_PATH = "./bao_qwen-mental-health-finetuned"
+ADAPTER_PATH = "./lap_qwen-mental-health-finetuned"
 
 # Load model & tokenizer
 @st.cache_resource
