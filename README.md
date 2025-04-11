@@ -12,8 +12,6 @@ An AI-powered chatbot for answering psychology-related questions, built with the
 ## 🚀 Setup & Run
 
 ### 1. Environment Setup
-
-```bash
 conda create -n myenv python=3.11
 conda activate myenv
 pip install -r requirements.txt
