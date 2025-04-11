@@ -20,5 +20,10 @@ Tạo file .env
 Truy cập Hugging Face để lấy token API của bạn Options: Login khi chạy file Chatbot.ipynb trên colab và nhập token API
 ### 3: Chạy ứng dụng
 Chạy file Qwen.ipynb Mở Terminal/Command Prompt, di chuyển vào thư mục src cd colab và chạy:
+```python
+python Qwen.ipynb
+```
 Run ứng dụng:
+```python
 streamlit run app.py
+```
