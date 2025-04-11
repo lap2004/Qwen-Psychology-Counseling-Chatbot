@@ -21,7 +21,7 @@ An AI-powered chatbot for answering psychology-related questions, built with the
 
 1. Tạo file `.env`
 2. Truy cập Hugging Face để lấy token API của bạn
-Options: Login khi chạy file Chatbot.ipynb trên colab và nhập token API
+Options: Login khi chạy file Qwen.ipynb trên colab và nhập token API
 ### 3: Chạy ứng dụng
 Chạy file Qwen.ipynb Mở Terminal/Command Prompt, di chuyển vào thư mục src cd colab và chạy:
 ```python
