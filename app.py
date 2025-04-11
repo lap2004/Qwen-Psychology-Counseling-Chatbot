@@ -28,18 +28,18 @@ def load_model():
 
 # Giao diện Streamlit
 st.set_page_config(page_title="Chatbot Tâm lý (Adapter)", layout="centered")
-st.title("🧠 Chatbot Tư vấn Tâm lý")
+st.title("Chatbot Tư vấn Tâm lý")
 
-with st.spinner("🔧 Đang tải mô hình..."):
+with st.spinner("Đang tải mô hình..."):
     tokenizer, model = load_model()
 
 user_input = st.text_area("💬 Nhập câu hỏi của bạn:", height=100)
 
-if st.button("🧠 Trả lời"):
+if st.button("Trả lời"):
     if not user_input.strip():
-        st.warning("⛔ Vui lòng nhập câu hỏi.")
+        st.warning("Vui lòng nhập câu hỏi.")
     else:
-        with st.spinner("🤖 Đang sinh phản hồi..."):
+        with st.spinner("Đang sinh phản hồi..."):
             prompt = f"<|user|>\n{user_input.strip()}\n<|assistant|>\n"
             inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
